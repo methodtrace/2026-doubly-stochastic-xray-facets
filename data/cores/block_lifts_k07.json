@@ -1,0 +1,23 @@
+{"k": 7, "count": 18,
+ "description": "Cores (facet rays that are no end padding; increment patterns, min 0, gcd 1) with their block lifts: [side, b] means that the facet meets the block face F_side(b), isomorphic to hat-P(k - b), in a facet of that face (exact face dimension). A core without block lift is primitive. Data only; not cited in the paper.",
+ "counts": {"primitive": 4, "nonstep_primitive": 0, "block_lifts": 14, "nonstep_block_lifts": 5},
+ "cores": [
+  {"pattern": [1, 0, 0, 0, 0, 0], "block_lifts": [], "primitive": true, "step": true},
+  {"pattern": [1, 0, 0, 0, 1, 0], "block_lifts": [["R", 2]], "primitive": false, "step": true},
+  {"pattern": [1, 0, 0, 1, 0, 0], "block_lifts": [["L", 2], ["R", 3]], "primitive": false, "step": true},
+  {"pattern": [1, 0, 0, 1, 1, 0], "block_lifts": [["L", 2], ["R", 2]], "primitive": false, "step": true},
+  {"pattern": [1, 0, 1, 0, 0, 0], "block_lifts": [["L", 4], ["R", 4]], "primitive": false, "step": true},
+  {"pattern": [1, 0, 1, 0, 1, 0], "block_lifts": [["L", 2], ["R", 2], ["L", 4], ["R", 4]], "primitive": false, "step": true},
+  {"pattern": [1, 0, 1, 1, 1, 0], "block_lifts": [["L", 2]], "primitive": false, "step": true},
+  {"pattern": [1, 1, 0, 0, 0, 0], "block_lifts": [], "primitive": true, "step": true},
+  {"pattern": [1, 1, 0, 0, 2, 0], "block_lifts": [["R", 2], ["L", 3]], "primitive": false, "step": false},
+  {"pattern": [1, 1, 0, 1, 1, 0], "block_lifts": [["R", 2], ["L", 3]], "primitive": false, "step": true},
+  {"pattern": [1, 1, 1, 0, 0, 0], "block_lifts": [["L", 4], ["R", 4]], "primitive": false, "step": true},
+  {"pattern": [1, 1, 1, 0, 1, 0], "block_lifts": [["L", 4], ["R", 4]], "primitive": false, "step": true},
+  {"pattern": [1, 1, 1, 0, 2, 0], "block_lifts": [["R", 2], ["L", 4], ["R", 4]], "primitive": false, "step": false},
+  {"pattern": [1, 1, 1, 1, 0, 0], "block_lifts": [], "primitive": true, "step": true},
+  {"pattern": [1, 1, 1, 1, 1, 0], "block_lifts": [], "primitive": true, "step": true},
+  {"pattern": [2, 0, 2, 1, 1, 1], "block_lifts": [["L", 2], ["L", 4], ["R", 4]], "primitive": false, "step": false},
+  {"pattern": [2, 0, 2, 2, 1, 1], "block_lifts": [["L", 2], ["R", 3]], "primitive": false, "step": false},
+  {"pattern": [2, 2, 0, 3, 1, 1], "block_lifts": [["L", 3], ["R", 3]], "primitive": false, "step": false}
+ ]}

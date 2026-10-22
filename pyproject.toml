@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dsxray"
+version = "0"
+description = "Exact computations for the facets of the X-ray polytope of doubly stochastic matrices"
+requires-python = ">=3.12"
+# pinned to the versions with which the test suite and every tier were last run (CPython 3.13, GCC 13.3);
+# the quick tier has also passed with numpy 2.2 to 2.5, scipy 1.16 to 1.18 and CPython 3.12
+dependencies = ["numpy==2.5.3", "scipy==1.18.1"]
+license = {text = "Apache-2.0"}
+
+[project.optional-dependencies]
+cdd = ["pycddlib-standalone==3.0.0"]
+test = ["pytest==9.1.1"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

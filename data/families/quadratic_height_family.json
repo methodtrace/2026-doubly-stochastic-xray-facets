@@ -1,0 +1,397 @@
+{
+ "description": "Certified facet test on the quadratic family G_ab (the theorem is checked by scripts/check_quadratic_family.py): the normalized potential with increments (b^a, 0^(b-1), (b-1)a+1, 1^b), k = a + 2b + 1, and whether its inequality defines a facet of hat-P(k) (certified facet test). A facet exactly for 1 <= a <= b + 1; a = 1 is the family g_b (Theorem 5.9).",
+ "rows": [
+  {
+   "a": 1,
+   "b": 2,
+   "k": 6,
+   "height": 2,
+   "facet": true
+  },
+  {
+   "a": 2,
+   "b": 2,
+   "k": 7,
+   "height": 3,
+   "facet": true
+  },
+  {
+   "a": 3,
+   "b": 2,
+   "k": 8,
+   "height": 4,
+   "facet": true
+  },
+  {
+   "a": 4,
+   "b": 2,
+   "k": 9,
+   "height": 5,
+   "facet": false
+  },
+  {
+   "a": 5,
+   "b": 2,
+   "k": 10,
+   "height": 6,
+   "facet": false
+  },
+  {
+   "a": 1,
+   "b": 3,
+   "k": 8,
+   "height": 3,
+   "facet": true
+  },
+  {
+   "a": 2,
+   "b": 3,
+   "k": 9,
+   "height": 5,
+   "facet": true
+  },
+  {
+   "a": 3,
+   "b": 3,
+   "k": 10,
+   "height": 7,
+   "facet": true
+  },
+  {
+   "a": 4,
+   "b": 3,
+   "k": 11,
+   "height": 9,
+   "facet": true
+  },
+  {
+   "a": 5,
+   "b": 3,
+   "k": 12,
+   "height": 11,
+   "facet": false
+  },
+  {
+   "a": 6,
+   "b": 3,
+   "k": 13,
+   "height": 13,
+   "facet": false
+  },
+  {
+   "a": 1,
+   "b": 4,
+   "k": 10,
+   "height": 4,
+   "facet": true
+  },
+  {
+   "a": 2,
+   "b": 4,
+   "k": 11,
+   "height": 7,
+   "facet": true
+  },
+  {
+   "a": 3,
+   "b": 4,
+   "k": 12,
+   "height": 10,
+   "facet": true
+  },
+  {
+   "a": 4,
+   "b": 4,
+   "k": 13,
+   "height": 13,
+   "facet": true
+  },
+  {
+   "a": 5,
+   "b": 4,
+   "k": 14,
+   "height": 16,
+   "facet": true
+  },
+  {
+   "a": 6,
+   "b": 4,
+   "k": 15,
+   "height": 19,
+   "facet": false
+  },
+  {
+   "a": 7,
+   "b": 4,
+   "k": 16,
+   "height": 22,
+   "facet": false
+  },
+  {
+   "a": 1,
+   "b": 5,
+   "k": 12,
+   "height": 5,
+   "facet": true
+  },
+  {
+   "a": 2,
+   "b": 5,
+   "k": 13,
+   "height": 9,
+   "facet": true
+  },
+  {
+   "a": 3,
+   "b": 5,
+   "k": 14,
+   "height": 13,
+   "facet": true
+  },
+  {
+   "a": 4,
+   "b": 5,
+   "k": 15,
+   "height": 17,
+   "facet": true
+  },
+  {
+   "a": 5,
+   "b": 5,
+   "k": 16,
+   "height": 21,
+   "facet": true
+  },
+  {
+   "a": 6,
+   "b": 5,
+   "k": 17,
+   "height": 25,
+   "facet": true
+  },
+  {
+   "a": 7,
+   "b": 5,
+   "k": 18,
+   "height": 29,
+   "facet": false
+  },
+  {
+   "a": 8,
+   "b": 5,
+   "k": 19,
+   "height": 33,
+   "facet": false
+  },
+  {
+   "a": 1,
+   "b": 6,
+   "k": 14,
+   "height": 6,
+   "facet": true
+  },
+  {
+   "a": 2,
+   "b": 6,
+   "k": 15,
+   "height": 11,
+   "facet": true
+  },
+  {
+   "a": 3,
+   "b": 6,
+   "k": 16,
+   "height": 16,
+   "facet": true
+  },
+  {
+   "a": 4,
+   "b": 6,
+   "k": 17,
+   "height": 21,
+   "facet": true
+  },
+  {
+   "a": 5,
+   "b": 6,
+   "k": 18,
+   "height": 26,
+   "facet": true
+  },
+  {
+   "a": 6,
+   "b": 6,
+   "k": 19,
+   "height": 31,
+   "facet": true
+  },
+  {
+   "a": 7,
+   "b": 6,
+   "k": 20,
+   "height": 36,
+   "facet": true
+  },
+  {
+   "a": 8,
+   "b": 6,
+   "k": 21,
+   "height": 41,
+   "facet": false
+  },
+  {
+   "a": 9,
+   "b": 6,
+   "k": 22,
+   "height": 46,
+   "facet": false
+  },
+  {
+   "a": 1,
+   "b": 7,
+   "k": 16,
+   "height": 7,
+   "facet": true
+  },
+  {
+   "a": 2,
+   "b": 7,
+   "k": 17,
+   "height": 13,
+   "facet": true
+  },
+  {
+   "a": 3,
+   "b": 7,
+   "k": 18,
+   "height": 19,
+   "facet": true
+  },
+  {
+   "a": 4,
+   "b": 7,
+   "k": 19,
+   "height": 25,
+   "facet": true
+  },
+  {
+   "a": 5,
+   "b": 7,
+   "k": 20,
+   "height": 31,
+   "facet": true
+  },
+  {
+   "a": 6,
+   "b": 7,
+   "k": 21,
+   "height": 37,
+   "facet": true
+  },
+  {
+   "a": 7,
+   "b": 7,
+   "k": 22,
+   "height": 43,
+   "facet": true
+  },
+  {
+   "a": 8,
+   "b": 7,
+   "k": 23,
+   "height": 49,
+   "facet": true
+  },
+  {
+   "a": 9,
+   "b": 7,
+   "k": 24,
+   "height": 55,
+   "facet": false
+  },
+  {
+   "a": 10,
+   "b": 7,
+   "k": 25,
+   "height": 61,
+   "facet": false
+  },
+  {
+   "a": 1,
+   "b": 8,
+   "k": 18,
+   "height": 8,
+   "facet": true
+  },
+  {
+   "a": 2,
+   "b": 8,
+   "k": 19,
+   "height": 15,
+   "facet": true
+  },
+  {
+   "a": 3,
+   "b": 8,
+   "k": 20,
+   "height": 22,
+   "facet": true
+  },
+  {
+   "a": 4,
+   "b": 8,
+   "k": 21,
+   "height": 29,
+   "facet": true
+  },
+  {
+   "a": 5,
+   "b": 8,
+   "k": 22,
+   "height": 36,
+   "facet": true
+  },
+  {
+   "a": 6,
+   "b": 8,
+   "k": 23,
+   "height": 43,
+   "facet": true
+  },
+  {
+   "a": 7,
+   "b": 8,
+   "k": 24,
+   "height": 50,
+   "facet": true
+  },
+  {
+   "a": 8,
+   "b": 8,
+   "k": 25,
+   "height": 57,
+   "facet": true
+  },
+  {
+   "a": 9,
+   "b": 8,
+   "k": 26,
+   "height": 64,
+   "facet": true
+  },
+  {
+   "a": 10,
+   "b": 8,
+   "k": 27,
+   "height": 71,
+   "facet": false
+  },
+  {
+   "a": 11,
+   "b": 8,
+   "k": 28,
+   "height": 78,
+   "facet": false
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+Facets of the X-ray polytope of doubly stochastic matrices: computational artifact
+Copyright 2026 Prashant Chaudhary and Kapil Khandelwal
+
+Code (src/, scripts/, tests/, tools/, run.py): Apache License 2.0 (see LICENSE).
+Data (data/): Creative Commons Attribution 4.0 International (see LICENSE-DATA).

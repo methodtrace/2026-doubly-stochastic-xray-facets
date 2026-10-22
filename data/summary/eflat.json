@@ -1,0 +1,248 @@
+{
+ "description": "Statement E-flat. eflat_tails: every tail (g_1..g_r) with g_1+...+g_r = n, 1 <= n <= 25; nohall = Hall's condition fails, ts = largest balanced set empty, ok = E-flat holds. cells: nonempty cells of the sign arrangement for r steps (data/cells/cells_rN.json).",
+ "eflat_tails": [
+  {
+   "n": 1,
+   "counts": {
+    "ts": 1
+   }
+  },
+  {
+   "n": 2,
+   "counts": {
+    "ts": 2
+   }
+  },
+  {
+   "n": 3,
+   "counts": {
+    "ts": 4
+   }
+  },
+  {
+   "n": 4,
+   "counts": {
+    "ts": 8
+   }
+  },
+  {
+   "n": 5,
+   "counts": {
+    "ts": 16
+   }
+  },
+  {
+   "n": 6,
+   "counts": {
+    "ok": 3,
+    "ts": 29
+   }
+  },
+  {
+   "n": 7,
+   "counts": {
+    "ok": 9,
+    "ts": 55
+   }
+  },
+  {
+   "n": 8,
+   "counts": {
+    "nohall": 2,
+    "ok": 26,
+    "ts": 100
+   }
+  },
+  {
+   "n": 9,
+   "counts": {
+    "nohall": 8,
+    "ok": 70,
+    "ts": 178
+   }
+  },
+  {
+   "n": 10,
+   "counts": {
+    "nohall": 31,
+    "ok": 163,
+    "ts": 318
+   }
+  },
+  {
+   "n": 11,
+   "counts": {
+    "nohall": 93,
+    "ok": 371,
+    "ts": 560
+   }
+  },
+  {
+   "n": 12,
+   "counts": {
+    "nohall": 268,
+    "ok": 805,
+    "ts": 975
+   }
+  },
+  {
+   "n": 13,
+   "counts": {
+    "nohall": 705,
+    "ok": 1714,
+    "ts": 1677
+   }
+  },
+  {
+   "n": 14,
+   "counts": {
+    "nohall": 1811,
+    "ok": 3500,
+    "ts": 2881
+   }
+  },
+  {
+   "n": 15,
+   "counts": {
+    "nohall": 4443,
+    "ok": 7064,
+    "ts": 4877
+   }
+  },
+  {
+   "n": 16,
+   "counts": {
+    "nohall": 10611,
+    "ok": 13910,
+    "ts": 8247
+   }
+  },
+  {
+   "n": 17,
+   "counts": {
+    "nohall": 24675,
+    "ok": 27096,
+    "ts": 13765
+   }
+  },
+  {
+   "n": 18,
+   "counts": {
+    "nohall": 56306,
+    "ok": 51779,
+    "ts": 22987
+   }
+  },
+  {
+   "n": 19,
+   "counts": {
+    "nohall": 126188,
+    "ok": 98041,
+    "ts": 37915
+   }
+  },
+  {
+   "n": 20,
+   "counts": {
+    "nohall": 278577,
+    "ok": 183171,
+    "ts": 62540
+   }
+  },
+  {
+   "n": 21,
+   "counts": {
+    "nohall": 607187,
+    "ok": 339283,
+    "ts": 102106
+   }
+  },
+  {
+   "n": 22,
+   "counts": {
+    "nohall": 1308717,
+    "ok": 621842,
+    "ts": 166593
+   }
+  },
+  {
+   "n": 23,
+   "counts": {
+    "nohall": 2793676,
+    "ok": 1131205,
+    "ts": 269423
+   }
+  },
+  {
+   "n": 24,
+   "counts": {
+    "nohall": 5912615,
+    "ok": 2040481,
+    "ts": 435512
+   }
+  },
+  {
+   "n": 25,
+   "counts": {
+    "nohall": 12422099,
+    "ok": 3656843,
+    "ts": 698274
+   }
+  }
+ ],
+ "eflat_totals": {
+  "nohall": 23548012,
+  "ok": 8177376,
+  "ts": 1829043
+ },
+ "cells": [
+  {
+   "r": 1,
+   "cells": 2,
+   "hall_fails": 0,
+   "kstar_empty": 2,
+   "eflat_holds": 0,
+   "eflat_fails": 0
+  },
+  {
+   "r": 2,
+   "cells": 6,
+   "hall_fails": 0,
+   "kstar_empty": 6,
+   "eflat_holds": 0,
+   "eflat_fails": 0
+  },
+  {
+   "r": 3,
+   "cells": 26,
+   "hall_fails": 0,
+   "kstar_empty": 20,
+   "eflat_holds": 6,
+   "eflat_fails": 0
+  },
+  {
+   "r": 4,
+   "cells": 198,
+   "hall_fails": 12,
+   "kstar_empty": 90,
+   "eflat_holds": 96,
+   "eflat_fails": 0
+  },
+  {
+   "r": 5,
+   "cells": 2298,
+   "hall_fails": 586,
+   "kstar_empty": 434,
+   "eflat_holds": 1278,
+   "eflat_fails": 0
+  },
+  {
+   "r": 6,
+   "cells": 45014,
+   "hall_fails": 24088,
+   "kstar_empty": 2654,
+   "eflat_holds": 18272,
+   "eflat_fails": 0
+  }
+ ]
+}

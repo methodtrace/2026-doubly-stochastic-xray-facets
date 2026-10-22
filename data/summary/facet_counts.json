@@ -1,0 +1,355 @@
+{
+ "description": "Facet counts of hat-P(k) from the deposited ray lists (data/rays) classified with the certified facet test (data/facets), the census by smallest step family, the facet rays by height, and the facet-walk statistics (scripts/reproduce_facet_counts.py, reproduce_census.py, reproduce_shapes.py).",
+ "facets_small_k": {
+  "2": 2,
+  "3": 6,
+  "4": 13
+ },
+ "per_k": {
+  "5": {
+   "rays": 16,
+   "ray_facets": 14,
+   "coordinate_facets": 9,
+   "facets": 23,
+   "certificates": {
+    "coords": 2,
+    "rank": 14
+   },
+   "facet_equals_total_support": 16,
+   "all_rays_have_dim_z_3": true,
+   "distinct_facet_inequalities": 14,
+   "facet_rays_equal_to_a_coordinate_facet": 0,
+   "census": {
+    "facets": 23,
+    "coordinate": 9,
+    "single": 8,
+    "double": 6,
+    "triple": 0,
+    "four-step": 0,
+    "five-step": 0,
+    "other": 0
+   },
+   "heights": {
+    "1": 14
+   },
+   "largest_height": 1
+  },
+  "6": {
+   "rays": 42,
+   "ray_facets": 34,
+   "coordinate_facets": 11,
+   "facets": 45,
+   "certificates": {
+    "coords": 6,
+    "empty": 2,
+    "rank": 34
+   },
+   "facet_equals_total_support": 42,
+   "all_rays_have_dim_z_3": true,
+   "distinct_facet_inequalities": 34,
+   "facet_rays_equal_to_a_coordinate_facet": 0,
+   "census": {
+    "facets": 45,
+    "coordinate": 11,
+    "single": 10,
+    "double": 20,
+    "triple": 0,
+    "four-step": 0,
+    "five-step": 0,
+    "other": 4
+   },
+   "heights": {
+    "1": 30,
+    "2": 4
+   },
+   "largest_height": 2,
+   "height_table": {
+    "ray_facets": 34,
+    "hinges": 8,
+    "other_height_1": 22,
+    "height_2": 4,
+    "height_3": 0,
+    "height_4_or_more": 0
+   }
+  },
+  "7": {
+   "rays": 110,
+   "ray_facets": 72,
+   "coordinate_facets": 13,
+   "facets": 85,
+   "certificates": {
+    "coords": 35,
+    "empty": 3,
+    "rank": 72
+   },
+   "facet_equals_total_support": 110,
+   "all_rays_have_dim_z_3": true,
+   "distinct_facet_inequalities": 72,
+   "facet_rays_equal_to_a_coordinate_facet": 0,
+   "census": {
+    "facets": 85,
+    "coordinate": 13,
+    "single": 12,
+    "double": 30,
+    "triple": 17,
+    "four-step": 0,
+    "five-step": 0,
+    "other": 13
+   },
+   "heights": {
+    "1": 59,
+    "2": 12,
+    "3": 1
+   },
+   "largest_height": 3,
+   "height_table": {
+    "ray_facets": 72,
+    "hinges": 10,
+    "other_height_1": 49,
+    "height_2": 12,
+    "height_3": 1,
+    "height_4_or_more": 0
+   }
+  },
+  "8": {
+   "rays": 338,
+   "ray_facets": 172,
+   "coordinate_facets": 15,
+   "facets": 187,
+   "certificates": {
+    "coords": 158,
+    "empty": 8,
+    "rank": 172
+   },
+   "facet_equals_total_support": 338,
+   "all_rays_have_dim_z_3": true,
+   "distinct_facet_inequalities": 172,
+   "facet_rays_equal_to_a_coordinate_facet": 0,
+   "census": {
+    "facets": 187,
+    "coordinate": 15,
+    "single": 14,
+    "double": 42,
+    "triple": 58,
+    "four-step": 0,
+    "five-step": 0,
+    "other": 58
+   },
+   "heights": {
+    "1": 114,
+    "2": 48,
+    "3": 8,
+    "4": 2
+   },
+   "largest_height": 4,
+   "height_table": {
+    "ray_facets": 172,
+    "hinges": 12,
+    "other_height_1": 102,
+    "height_2": 48,
+    "height_3": 8,
+    "height_4_or_more": 2
+   }
+  },
+  "9": {
+   "rays": 1146,
+   "ray_facets": 409,
+   "coordinate_facets": 17,
+   "facets": 426,
+   "certificates": {
+    "coords": 672,
+    "empty": 65,
+    "rank": 409
+   },
+   "facet_equals_total_support": 1146,
+   "all_rays_have_dim_z_3": true,
+   "distinct_facet_inequalities": 409,
+   "facet_rays_equal_to_a_coordinate_facet": 0,
+   "census": {
+    "facets": 426,
+    "coordinate": 17,
+    "single": 16,
+    "double": 56,
+    "triple": 88,
+    "four-step": 54,
+    "five-step": 0,
+    "other": 195
+   },
+   "heights": {
+    "1": 214,
+    "2": 143,
+    "3": 39,
+    "4": 10,
+    "5": 3
+   },
+   "largest_height": 5,
+   "height_table": {
+    "ray_facets": 409,
+    "hinges": 14,
+    "other_height_1": 200,
+    "height_2": 143,
+    "height_3": 39,
+    "height_4_or_more": 13
+   }
+  },
+  "10": {
+   "rays": 4370,
+   "ray_facets": 1014,
+   "coordinate_facets": 19,
+   "facets": 1033,
+   "certificates": {
+    "coords": 2818,
+    "empty": 538,
+    "rank": 1014
+   },
+   "facet_equals_total_support": 4370,
+   "all_rays_have_dim_z_3": true,
+   "distinct_facet_inequalities": 1014,
+   "facet_rays_equal_to_a_coordinate_facet": 0,
+   "census": {
+    "facets": 1033,
+    "coordinate": 19,
+    "single": 18,
+    "double": 72,
+    "triple": 126,
+    "four-step": 176,
+    "five-step": 0,
+    "other": 622
+   },
+   "heights": {
+    "1": 392,
+    "2": 410,
+    "3": 138,
+    "4": 54,
+    "5": 8,
+    "6": 10,
+    "7": 2
+   },
+   "largest_height": 7,
+   "height_table": {
+    "ray_facets": 1014,
+    "hinges": 16,
+    "other_height_1": 376,
+    "height_2": 410,
+    "height_3": 138,
+    "height_4_or_more": 74
+   }
+  },
+  "11": {
+   "rays": 18515,
+   "ray_facets": 2612,
+   "coordinate_facets": 21,
+   "facets": 2633,
+   "certificates": {
+    "coords": 11818,
+    "empty": 4085,
+    "rank": 2612
+   },
+   "facet_equals_total_support": 18515,
+   "all_rays_have_dim_z_3": true,
+   "distinct_facet_inequalities": 2612,
+   "facet_rays_equal_to_a_coordinate_facet": 0,
+   "census": {
+    "facets": 2633,
+    "coordinate": 21,
+    "single": 20,
+    "double": 90,
+    "triple": 174,
+    "four-step": 276,
+    "five-step": 150,
+    "other": 1902
+   },
+   "heights": {
+    "1": 710,
+    "2": 1089,
+    "3": 490,
+    "4": 219,
+    "5": 35,
+    "6": 52,
+    "7": 9,
+    "8": 2,
+    "9": 6
+   },
+   "largest_height": 9,
+   "height_table": {
+    "ray_facets": 2612,
+    "hinges": 18,
+    "other_height_1": 692,
+    "height_2": 1089,
+    "height_3": 490,
+    "height_4_or_more": 323
+   }
+  },
+  "12": {
+   "rays": 89321,
+   "ray_facets": 7018,
+   "coordinate_facets": 23,
+   "facets": 7041,
+   "certificates": {
+    "coords": 51079,
+    "empty": 31224,
+    "rank": 7018
+   },
+   "facet_equals_total_support": 89321,
+   "all_rays_have_dim_z_3": true,
+   "distinct_facet_inequalities": 7018,
+   "facet_rays_equal_to_a_coordinate_facet": 0,
+   "census": {
+    "facets": 7041,
+    "coordinate": 23,
+    "single": 22,
+    "double": 110,
+    "triple": 234,
+    "four-step": 404,
+    "five-step": 500,
+    "other": 5748
+   },
+   "heights": {
+    "1": 1270,
+    "2": 2780,
+    "3": 1572,
+    "4": 862,
+    "5": 180,
+    "6": 240,
+    "7": 38,
+    "8": 34,
+    "9": 28,
+    "10": 8,
+    "12": 6
+   },
+   "largest_height": 12,
+   "height_table": {
+    "ray_facets": 7018,
+    "hinges": 20,
+    "other_height_1": 1250,
+    "height_2": 2780,
+    "height_3": 1572,
+    "height_4_or_more": 1396
+   }
+  }
+ },
+ "facet_walk": {
+  "9": {
+   "rays": 1146
+  },
+  "10": {
+   "rays": 4370,
+   "orbit_representatives": 2185,
+   "ridge_incidences_on_representatives": 67993,
+   "every_ridge_found_from_both_sides": true
+  },
+  "11": {
+   "rays": 18515,
+   "orbit_representatives": 9310,
+   "ridge_incidences_on_representatives": 344200,
+   "every_ridge_found_from_both_sides": true
+  },
+  "12": {
+   "rays": 89321,
+   "orbit_representatives": 44661,
+   "ridge_incidences_on_representatives": 1871161,
+   "every_ridge_found_from_both_sides": true,
+   "recursive_variant_threshold": 60
+  }
+ }
+}

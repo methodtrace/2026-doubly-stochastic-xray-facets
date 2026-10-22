@@ -1,0 +1,17 @@
+{
+ "description": "Complete sign-cell certificate stream for statement E-flat with r = 7 steps (34 comparison forms); see scripts/check_cells_depth7.py and src/dsxray/sign_certificates.py.",
+ "r": 7,
+ "forms": 34,
+ "sign_vectors": 638489,
+ "rejected_prefixes": 7048460,
+ "terminal_records": 7686949,
+ "cells": 1276978,
+ "cell_verdicts": {
+  "nohall": 976412,
+  "ts": 16682,
+  "ok": 283884,
+  "FAIL": 0
+ },
+ "uncompressed_bytes": 413497888,
+ "uncompressed_sha256": "3eadca67cb5f3c6e22677c128a29d855d570d2eb8a80dfd3942f01afd895ca51"
+}

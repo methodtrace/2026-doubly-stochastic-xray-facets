@@ -1,0 +1,765 @@
+{
+ "description": "Certified classification of every staircase u(g), g a composition of k with 1 <= r <= k-2 (sign +), with the facet test of src/dsxray/facet_test.py; the rigid-corner certificate on the same staircases; and the three-step statement on all four-part compositions. Produced by scripts/check_staircase_conjectures.py and scripts/check_three_step_theorem.py (--full).",
+ "staircases": {
+  "total_k3_to_24": 16777168,
+  "per_k": {
+   "3": {
+    "items": 2,
+    "facets": 2,
+    "total_support": 2,
+    "facet_equals_total_support": 2,
+    "rays": 2,
+    "nonfacet_certificates": {},
+    "maximizer_patterns": 1,
+    "patterns_with_both_outcomes": 0
+   },
+   "4": {
+    "items": 6,
+    "facets": 6,
+    "total_support": 6,
+    "facet_equals_total_support": 6,
+    "rays": 6,
+    "nonfacet_certificates": {},
+    "maximizer_patterns": 4,
+    "patterns_with_both_outcomes": 0
+   },
+   "5": {
+    "items": 14,
+    "facets": 14,
+    "total_support": 14,
+    "facet_equals_total_support": 14,
+    "rays": 14,
+    "three_step": 4,
+    "three_step_rule_agrees": 4,
+    "nonfacet_certificates": {},
+    "maximizer_patterns": 8,
+    "patterns_with_both_outcomes": 0
+   },
+   "6": {
+    "items": 30,
+    "facets": 30,
+    "total_support": 30,
+    "facet_equals_total_support": 30,
+    "rays": 30,
+    "three_step": 10,
+    "three_step_rule_agrees": 10,
+    "nonfacet_certificates": {},
+    "maximizer_patterns": 16,
+    "patterns_with_both_outcomes": 0
+   },
+   "7": {
+    "items": 62,
+    "facets": 59,
+    "total_support": 59,
+    "facet_equals_total_support": 62,
+    "rays": 62,
+    "three_step": 20,
+    "three_step_rule_agrees": 20,
+    "nonfacet_certificates": {
+     "coords": 3
+    },
+    "maximizer_patterns": 34,
+    "patterns_with_both_outcomes": 0
+   },
+   "8": {
+    "items": 126,
+    "facets": 114,
+    "total_support": 114,
+    "facet_equals_total_support": 126,
+    "rays": 126,
+    "three_step": 35,
+    "three_step_rule_agrees": 35,
+    "nonfacet_certificates": {
+     "coords": 12
+    },
+    "maximizer_patterns": 67,
+    "patterns_with_both_outcomes": 0
+   },
+   "9": {
+    "items": 254,
+    "facets": 214,
+    "total_support": 214,
+    "facet_equals_total_support": 254,
+    "rays": 253,
+    "three_step": 56,
+    "three_step_rule_agrees": 56,
+    "nonfacet_certificates": {
+     "coords": 37,
+     "empty": 3
+    },
+    "maximizer_patterns": 132,
+    "patterns_with_both_outcomes": 0
+   },
+   "10": {
+    "items": 510,
+    "facets": 392,
+    "total_support": 392,
+    "facet_equals_total_support": 510,
+    "rays": 504,
+    "three_step": 84,
+    "three_step_rule_agrees": 84,
+    "nonfacet_certificates": {
+     "coords": 104,
+     "empty": 14
+    },
+    "maximizer_patterns": 261,
+    "patterns_with_both_outcomes": 0
+   },
+   "11": {
+    "items": 1022,
+    "facets": 710,
+    "total_support": 710,
+    "facet_equals_total_support": 1022,
+    "rays": 998,
+    "three_step": 120,
+    "three_step_rule_agrees": 120,
+    "nonfacet_certificates": {
+     "coords": 254,
+     "empty": 58
+    },
+    "maximizer_patterns": 522,
+    "patterns_with_both_outcomes": 0
+   },
+   "12": {
+    "items": 2046,
+    "facets": 1270,
+    "total_support": 1270,
+    "facet_equals_total_support": 2046,
+    "rays": 1970,
+    "three_step": 165,
+    "three_step_rule_agrees": 165,
+    "nonfacet_certificates": {
+     "coords": 600,
+     "empty": 176
+    },
+    "maximizer_patterns": 1043,
+    "patterns_with_both_outcomes": 0
+   },
+   "13": {
+    "items": 4094,
+    "facets": 2245,
+    "total_support": 2245,
+    "facet_equals_total_support": 4094,
+    "rays": 3875,
+    "three_step": 220,
+    "three_step_rule_agrees": 220,
+    "nonfacet_certificates": {
+     "coords": 1324,
+     "empty": 525
+    },
+    "maximizer_patterns": 2088,
+    "patterns_with_both_outcomes": 0
+   },
+   "14": {
+    "items": 8190,
+    "facets": 3922,
+    "total_support": 3922,
+    "facet_equals_total_support": 8190,
+    "rays": 7606,
+    "three_step": 286,
+    "three_step_rule_agrees": 286,
+    "nonfacet_certificates": {
+     "coords": 2884,
+     "empty": 1384
+    },
+    "maximizer_patterns": 4179,
+    "patterns_with_both_outcomes": 0
+   },
+   "15": {
+    "items": 16382,
+    "facets": 6803,
+    "total_support": 6803,
+    "facet_equals_total_support": 16382,
+    "rays": 14883,
+    "three_step": 364,
+    "three_step_rule_agrees": 364,
+    "nonfacet_certificates": {
+     "coords": 5984,
+     "empty": 3595
+    },
+    "maximizer_patterns": 8343,
+    "patterns_with_both_outcomes": 0
+   },
+   "16": {
+    "items": 32766,
+    "facets": 11680,
+    "total_support": 11680,
+    "facet_equals_total_support": 32766,
+    "rays": 29074,
+    "three_step": 455,
+    "three_step_rule_agrees": 455,
+    "nonfacet_certificates": {
+     "coords": 12278,
+     "empty": 8808
+    },
+    "maximizer_patterns": 16709,
+    "patterns_with_both_outcomes": 0
+   },
+   "17": {
+    "items": 65534,
+    "facets": 19927,
+    "total_support": 19927,
+    "facet_equals_total_support": 65534,
+    "rays": 56685,
+    "three_step": 560,
+    "three_step_rule_agrees": 560,
+    "nonfacet_certificates": {
+     "coords": 24430,
+     "empty": 21177
+    },
+    "maximizer_patterns": 33391,
+    "patterns_with_both_outcomes": 0
+   },
+   "18": {
+    "items": 131070,
+    "facets": 33692,
+    "total_support": 33692,
+    "facet_equals_total_support": 131070,
+    "rays": 110314,
+    "three_step": 680,
+    "three_step_rule_agrees": 680,
+    "nonfacet_certificates": {
+     "coords": 48242,
+     "empty": 49136
+    },
+    "maximizer_patterns": 66776,
+    "patterns_with_both_outcomes": 0
+   },
+   "19": {
+    "items": 262142,
+    "facets": 56679,
+    "total_support": 56679,
+    "facet_equals_total_support": 262142,
+    "rays": 214360,
+    "three_step": 816,
+    "three_step_rule_agrees": 816,
+    "nonfacet_certificates": {
+     "coords": 92971,
+     "empty": 112492
+    },
+    "maximizer_patterns": 133310,
+    "patterns_with_both_outcomes": 0
+   },
+   "20": {
+    "items": 524286,
+    "facets": 94594,
+    "total_support": 94594,
+    "facet_equals_total_support": 524286,
+    "rays": 415894,
+    "three_step": 969,
+    "three_step_rule_agrees": 969,
+    "nonfacet_certificates": {
+     "coords": 177910,
+     "empty": 251782
+    },
+    "maximizer_patterns": 266352,
+    "patterns_with_both_outcomes": 0
+   },
+   "21": {
+    "items": 1048574,
+    "facets": 157134,
+    "total_support": 157134,
+    "facet_equals_total_support": 1048574,
+    "rays": 805722,
+    "three_step": 1140,
+    "three_step_rule_agrees": 1140,
+    "nonfacet_certificates": {
+     "coords": 334255,
+     "empty": 557185
+    },
+    "maximizer_patterns": 531202,
+    "patterns_with_both_outcomes": 0
+   },
+   "22": {
+    "items": 2097150,
+    "facets": 259240,
+    "total_support": 259240,
+    "facet_equals_total_support": 2097150,
+    "rays": 1558836,
+    "three_step": 1330,
+    "three_step_rule_agrees": 1330,
+    "nonfacet_certificates": {
+     "coords": 624710,
+     "empty": 1213200
+    },
+    "maximizer_patterns": 1059935,
+    "patterns_with_both_outcomes": 0
+   },
+   "23": {
+    "items": 4194302,
+    "facets": 425833,
+    "total_support": 425833,
+    "facet_equals_total_support": 4194302,
+    "rays": 3012351,
+    "three_step": 1540,
+    "three_step_rule_agrees": 1540,
+    "nonfacet_certificates": {
+     "coords": 1150018,
+     "empty": 2618451
+    },
+    "maximizer_patterns": 2111411,
+    "patterns_with_both_outcomes": 0
+   },
+   "24": {
+    "items": 8388606,
+    "facets": 695256,
+    "total_support": 695256,
+    "facet_equals_total_support": 8388606,
+    "rays": 5813928,
+    "three_step": 1771,
+    "three_step_rule_agrees": 1771,
+    "nonfacet_certificates": {
+     "coords": 2106760,
+     "empty": 5586590
+    },
+    "maximizer_patterns": 4206602,
+    "patterns_with_both_outcomes": 0
+   }
+  }
+ },
+ "rigid_corner": {
+  "certified_total": 4582776,
+  "per_k": {
+   "4": {
+    "counts": {
+     "total_support": 6
+    },
+    "first_single_start": {
+     "None": 6
+    }
+   },
+   "5": {
+    "counts": {
+     "total_support": 14
+    },
+    "first_single_start": {
+     "None": 14
+    }
+   },
+   "6": {
+    "counts": {
+     "total_support": 30
+    },
+    "first_single_start": {
+     "None": 30
+    }
+   },
+   "7": {
+    "counts": {
+     "certified": 3,
+     "total_support": 59
+    },
+    "first_single_start": {
+     "None": 62
+    }
+   },
+   "8": {
+    "counts": {
+     "certified": 12,
+     "total_support": 114
+    },
+    "first_single_start": {
+     "None": 125,
+     "True": 1
+    }
+   },
+   "9": {
+    "counts": {
+     "certified": 37,
+     "no_pm": 3,
+     "total_support": 214
+    },
+    "first_single_start": {
+     "None": 250,
+     "True": 4
+    }
+   },
+   "10": {
+    "counts": {
+     "certified": 104,
+     "no_pm": 14,
+     "total_support": 392
+    },
+    "first_single_start": {
+     "None": 495,
+     "True": 15
+    }
+   },
+   "11": {
+    "counts": {
+     "certified": 254,
+     "no_pm": 58,
+     "total_support": 710
+    },
+    "first_single_start": {
+     "None": 977,
+     "True": 45
+    }
+   },
+   "12": {
+    "counts": {
+     "certified": 600,
+     "no_pm": 176,
+     "total_support": 1270
+    },
+    "first_single_start": {
+     "None": 1920,
+     "True": 126
+    }
+   },
+   "13": {
+    "counts": {
+     "certified": 1324,
+     "no_pm": 525,
+     "total_support": 2245
+    },
+    "first_single_start": {
+     "None": 3760,
+     "True": 334
+    }
+   },
+   "14": {
+    "counts": {
+     "certified": 2884,
+     "no_pm": 1384,
+     "total_support": 3922
+    },
+    "first_single_start": {
+     "None": 7342,
+     "True": 848
+    }
+   },
+   "15": {
+    "counts": {
+     "certified": 5984,
+     "no_pm": 3595,
+     "total_support": 6803
+    },
+    "first_single_start": {
+     "None": 14315,
+     "True": 2067
+    }
+   },
+   "16": {
+    "counts": {
+     "certified": 12278,
+     "no_pm": 8808,
+     "total_support": 11680
+    },
+    "first_single_start": {
+     "None": 27860,
+     "True": 4906
+    }
+   },
+   "17": {
+    "counts": {
+     "certified": 24430,
+     "no_pm": 21177,
+     "total_support": 19927
+    },
+    "first_single_start": {
+     "None": 54181,
+     "True": 11353
+    }
+   },
+   "18": {
+    "counts": {
+     "certified": 48242,
+     "no_pm": 49136,
+     "total_support": 33692
+    },
+    "first_single_start": {
+     "None": 105250,
+     "True": 25820
+    }
+   },
+   "19": {
+    "counts": {
+     "certified": 92971,
+     "no_pm": 112492,
+     "total_support": 56679
+    },
+    "first_single_start": {
+     "None": 204413,
+     "True": 57729
+    }
+   },
+   "20": {
+    "counts": {
+     "certified": 177910,
+     "no_pm": 251782,
+     "total_support": 94594
+    },
+    "first_single_start": {
+     "None": 396867,
+     "True": 127419
+    }
+   },
+   "21": {
+    "counts": {
+     "certified": 334255,
+     "no_pm": 557185,
+     "total_support": 157134
+    },
+    "first_single_start": {
+     "None": 770468,
+     "True": 278106
+    }
+   },
+   "22": {
+    "counts": {
+     "certified": 624710,
+     "no_pm": 1213200,
+     "total_support": 259240
+    },
+    "first_single_start": {
+     "None": 1496220,
+     "True": 600930
+    }
+   },
+   "23": {
+    "counts": {
+     "certified": 1150018,
+     "no_pm": 2618451,
+     "total_support": 425833
+    },
+    "first_single_start": {
+     "None": 2906432,
+     "True": 1287870
+    }
+   },
+   "24": {
+    "counts": {
+     "certified": 2106760,
+     "no_pm": 5586590,
+     "total_support": 695256
+    },
+    "first_single_start": {
+     "None": 5648195,
+     "True": 2740411
+    }
+   }
+  }
+ },
+ "three_step": {
+  "total": 91389,
+  "per_k": {
+   "5": {
+    "potentials": 4,
+    "facets": 4,
+    "facet_equals_total_support": 4,
+    "three_step_rule_agrees": 4
+   },
+   "6": {
+    "potentials": 10,
+    "facets": 10,
+    "facet_equals_total_support": 10,
+    "three_step_rule_agrees": 10
+   },
+   "7": {
+    "potentials": 20,
+    "facets": 17,
+    "facet_equals_total_support": 20,
+    "three_step_rule_agrees": 20
+   },
+   "8": {
+    "potentials": 35,
+    "facets": 29,
+    "facet_equals_total_support": 35,
+    "three_step_rule_agrees": 35
+   },
+   "9": {
+    "potentials": 56,
+    "facets": 44,
+    "facet_equals_total_support": 56,
+    "three_step_rule_agrees": 56
+   },
+   "10": {
+    "potentials": 84,
+    "facets": 63,
+    "facet_equals_total_support": 84,
+    "three_step_rule_agrees": 84
+   },
+   "11": {
+    "potentials": 120,
+    "facets": 87,
+    "facet_equals_total_support": 120,
+    "three_step_rule_agrees": 120
+   },
+   "12": {
+    "potentials": 165,
+    "facets": 117,
+    "facet_equals_total_support": 165,
+    "three_step_rule_agrees": 165
+   },
+   "13": {
+    "potentials": 220,
+    "facets": 151,
+    "facet_equals_total_support": 220,
+    "three_step_rule_agrees": 220
+   },
+   "14": {
+    "potentials": 286,
+    "facets": 193,
+    "facet_equals_total_support": 286,
+    "three_step_rule_agrees": 286
+   },
+   "15": {
+    "potentials": 364,
+    "facets": 241,
+    "facet_equals_total_support": 364,
+    "three_step_rule_agrees": 364
+   },
+   "16": {
+    "potentials": 455,
+    "facets": 296,
+    "facet_equals_total_support": 455,
+    "three_step_rule_agrees": 455
+   },
+   "17": {
+    "potentials": 560,
+    "facets": 359,
+    "facet_equals_total_support": 560,
+    "three_step_rule_agrees": 560
+   },
+   "18": {
+    "potentials": 680,
+    "facets": 431,
+    "facet_equals_total_support": 680,
+    "three_step_rule_agrees": 680
+   },
+   "19": {
+    "potentials": 816,
+    "facets": 510,
+    "facet_equals_total_support": 816,
+    "three_step_rule_agrees": 816
+   },
+   "20": {
+    "potentials": 969,
+    "facets": 600,
+    "facet_equals_total_support": 969,
+    "three_step_rule_agrees": 969
+   },
+   "21": {
+    "potentials": 1140,
+    "facets": 699,
+    "facet_equals_total_support": 1140,
+    "three_step_rule_agrees": 1140
+   },
+   "22": {
+    "potentials": 1330,
+    "facets": 808,
+    "facet_equals_total_support": 1330,
+    "three_step_rule_agrees": 1330
+   },
+   "23": {
+    "potentials": 1540,
+    "facets": 928,
+    "facet_equals_total_support": 1540,
+    "three_step_rule_agrees": 1540
+   },
+   "24": {
+    "potentials": 1771,
+    "facets": 1060,
+    "facet_equals_total_support": 1771,
+    "three_step_rule_agrees": 1771
+   },
+   "25": {
+    "potentials": 2024,
+    "facets": 1202,
+    "facet_equals_total_support": 2024,
+    "three_step_rule_agrees": 2024
+   },
+   "26": {
+    "potentials": 2300,
+    "facets": 1358,
+    "facet_equals_total_support": 2300,
+    "three_step_rule_agrees": 2300
+   },
+   "27": {
+    "potentials": 2600,
+    "facets": 1526,
+    "facet_equals_total_support": 2600,
+    "three_step_rule_agrees": 2600
+   },
+   "28": {
+    "potentials": 2925,
+    "facets": 1707,
+    "facet_equals_total_support": 2925,
+    "three_step_rule_agrees": 2925
+   },
+   "29": {
+    "potentials": 3276,
+    "facets": 1902,
+    "facet_equals_total_support": 3276,
+    "three_step_rule_agrees": 3276
+   },
+   "30": {
+    "potentials": 3654,
+    "facets": 2112,
+    "facet_equals_total_support": 3654,
+    "three_step_rule_agrees": 3654
+   },
+   "31": {
+    "potentials": 4060,
+    "facets": 2335,
+    "facet_equals_total_support": 4060,
+    "three_step_rule_agrees": 4060
+   },
+   "32": {
+    "potentials": 4495,
+    "facets": 2575,
+    "facet_equals_total_support": 4495,
+    "three_step_rule_agrees": 4495
+   },
+   "33": {
+    "potentials": 4960,
+    "facets": 2830,
+    "facet_equals_total_support": 4960,
+    "three_step_rule_agrees": 4960
+   },
+   "34": {
+    "potentials": 5456,
+    "facets": 3101,
+    "facet_equals_total_support": 5456,
+    "three_step_rule_agrees": 5456
+   },
+   "35": {
+    "potentials": 5984,
+    "facets": 3389,
+    "facet_equals_total_support": 5984,
+    "three_step_rule_agrees": 5984
+   },
+   "36": {
+    "potentials": 6545,
+    "facets": 3695,
+    "facet_equals_total_support": 6545,
+    "three_step_rule_agrees": 6545
+   },
+   "37": {
+    "potentials": 7140,
+    "facets": 4017,
+    "facet_equals_total_support": 7140,
+    "three_step_rule_agrees": 7140
+   },
+   "38": {
+    "potentials": 7770,
+    "facets": 4359,
+    "facet_equals_total_support": 7770,
+    "three_step_rule_agrees": 7770
+   },
+   "39": {
+    "potentials": 8436,
+    "facets": 4719,
+    "facet_equals_total_support": 8436,
+    "three_step_rule_agrees": 8436
+   },
+   "40": {
+    "potentials": 9139,
+    "facets": 5098,
+    "facet_equals_total_support": 9139,
+    "three_step_rule_agrees": 9139
+   }
+  }
+ }
+}

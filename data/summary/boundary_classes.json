@@ -1,0 +1,692 @@
+{
+ "description": "Exhaustive counts for statement (S1) (tools/c/boundary_classes.c, mode A and mode P) and statement (H+) (tools/c/hplus_statement.c) over all compositions of k with 1 <= r <= k-2. In the (H+) counts a composition with several classes is counted as deficient if some class is deficient, otherwise as tight_set if some balanced class has a tight edge leaving its starts.",
+ "s1_compositions": [
+  {
+   "k": 4,
+   "compositions": 6,
+   "several_classes": 0,
+   "solitary_outside_class_of_0": 0,
+   "s1_failures": 0
+  },
+  {
+   "k": 5,
+   "compositions": 14,
+   "several_classes": 0,
+   "solitary_outside_class_of_0": 0,
+   "s1_failures": 0
+  },
+  {
+   "k": 6,
+   "compositions": 30,
+   "several_classes": 0,
+   "solitary_outside_class_of_0": 0,
+   "s1_failures": 0
+  },
+  {
+   "k": 7,
+   "compositions": 62,
+   "several_classes": 1,
+   "solitary_outside_class_of_0": 1,
+   "s1_failures": 0
+  },
+  {
+   "k": 8,
+   "compositions": 126,
+   "several_classes": 3,
+   "solitary_outside_class_of_0": 3,
+   "s1_failures": 0
+  },
+  {
+   "k": 9,
+   "compositions": 254,
+   "several_classes": 10,
+   "solitary_outside_class_of_0": 10,
+   "s1_failures": 0
+  },
+  {
+   "k": 10,
+   "compositions": 510,
+   "several_classes": 26,
+   "solitary_outside_class_of_0": 26,
+   "s1_failures": 0
+  },
+  {
+   "k": 11,
+   "compositions": 1022,
+   "several_classes": 70,
+   "solitary_outside_class_of_0": 70,
+   "s1_failures": 0
+  },
+  {
+   "k": 12,
+   "compositions": 2046,
+   "several_classes": 173,
+   "solitary_outside_class_of_0": 173,
+   "s1_failures": 0
+  },
+  {
+   "k": 13,
+   "compositions": 4094,
+   "several_classes": 421,
+   "solitary_outside_class_of_0": 421,
+   "s1_failures": 0
+  },
+  {
+   "k": 14,
+   "compositions": 8190,
+   "several_classes": 990,
+   "solitary_outside_class_of_0": 990,
+   "s1_failures": 0
+  },
+  {
+   "k": 15,
+   "compositions": 16382,
+   "several_classes": 2316,
+   "solitary_outside_class_of_0": 2316,
+   "s1_failures": 0
+  },
+  {
+   "k": 16,
+   "compositions": 32766,
+   "several_classes": 5289,
+   "solitary_outside_class_of_0": 5289,
+   "s1_failures": 0
+  },
+  {
+   "k": 17,
+   "compositions": 65534,
+   "several_classes": 11989,
+   "solitary_outside_class_of_0": 11989,
+   "s1_failures": 0
+  },
+  {
+   "k": 18,
+   "compositions": 131070,
+   "several_classes": 26813,
+   "solitary_outside_class_of_0": 26813,
+   "s1_failures": 0
+  },
+  {
+   "k": 19,
+   "compositions": 262142,
+   "several_classes": 59507,
+   "solitary_outside_class_of_0": 59507,
+   "s1_failures": 0
+  },
+  {
+   "k": 20,
+   "compositions": 524286,
+   "several_classes": 130765,
+   "solitary_outside_class_of_0": 130765,
+   "s1_failures": 0
+  },
+  {
+   "k": 21,
+   "compositions": 1048574,
+   "several_classes": 285549,
+   "solitary_outside_class_of_0": 285549,
+   "s1_failures": 0
+  },
+  {
+   "k": 22,
+   "compositions": 2097150,
+   "several_classes": 618776,
+   "solitary_outside_class_of_0": 618776,
+   "s1_failures": 0
+  },
+  {
+   "k": 23,
+   "compositions": 4194302,
+   "several_classes": 1333938,
+   "solitary_outside_class_of_0": 1333938,
+   "s1_failures": 0
+  },
+  {
+   "k": 24,
+   "compositions": 8388606,
+   "several_classes": 2858306,
+   "solitary_outside_class_of_0": 2858306,
+   "s1_failures": 0
+  },
+  {
+   "k": 25,
+   "compositions": 16777214,
+   "several_classes": 6096908,
+   "solitary_outside_class_of_0": 6096908,
+   "s1_failures": 0
+  },
+  {
+   "k": 26,
+   "compositions": 33554430,
+   "several_classes": 12941677,
+   "solitary_outside_class_of_0": 12941677,
+   "s1_failures": 0
+  },
+  {
+   "k": 27,
+   "compositions": 67108862,
+   "several_classes": 27366200,
+   "solitary_outside_class_of_0": 27366200,
+   "s1_failures": 0
+  },
+  {
+   "k": 28,
+   "compositions": 134217726,
+   "several_classes": 57633913,
+   "solitary_outside_class_of_0": 57633913,
+   "s1_failures": 0
+  },
+  {
+   "k": 29,
+   "compositions": 268435454,
+   "several_classes": 120983612,
+   "solitary_outside_class_of_0": 120983612,
+   "s1_failures": 0
+  },
+  {
+   "k": 30,
+   "compositions": 536870910,
+   "several_classes": 253107216,
+   "solitary_outside_class_of_0": 253107216,
+   "s1_failures": 0
+  }
+ ],
+ "s1_pattern_lifts": [
+  {
+   "V": 2,
+   "r": 2,
+   "several_classes": 0,
+   "s1_failures": 0
+  },
+  {
+   "V": 2,
+   "r": 3,
+   "several_classes": 6,
+   "s1_failures": 0
+  },
+  {
+   "V": 2,
+   "r": 4,
+   "several_classes": 29,
+   "s1_failures": 0
+  },
+  {
+   "V": 2,
+   "r": 5,
+   "several_classes": 131,
+   "s1_failures": 0
+  },
+  {
+   "V": 2,
+   "r": 6,
+   "several_classes": 519,
+   "s1_failures": 0
+  },
+  {
+   "V": 2,
+   "r": 7,
+   "several_classes": 1977,
+   "s1_failures": 0
+  },
+  {
+   "V": 2,
+   "r": 8,
+   "several_classes": 7192,
+   "s1_failures": 0
+  },
+  {
+   "V": 2,
+   "r": 9,
+   "several_classes": 25429,
+   "s1_failures": 0
+  },
+  {
+   "V": 2,
+   "r": 10,
+   "several_classes": 87609,
+   "s1_failures": 0
+  },
+  {
+   "V": 2,
+   "r": 11,
+   "several_classes": 295304,
+   "s1_failures": 0
+  },
+  {
+   "V": 2,
+   "r": 12,
+   "several_classes": 978665,
+   "s1_failures": 0
+  },
+  {
+   "V": 2,
+   "r": 13,
+   "several_classes": 3192042,
+   "s1_failures": 0
+  },
+  {
+   "V": 3,
+   "r": 2,
+   "several_classes": 0,
+   "s1_failures": 0
+  },
+  {
+   "V": 3,
+   "r": 3,
+   "several_classes": 22,
+   "s1_failures": 0
+  },
+  {
+   "V": 3,
+   "r": 4,
+   "several_classes": 150,
+   "s1_failures": 0
+  },
+  {
+   "V": 3,
+   "r": 5,
+   "several_classes": 930,
+   "s1_failures": 0
+  },
+  {
+   "V": 3,
+   "r": 6,
+   "several_classes": 5000,
+   "s1_failures": 0
+  },
+  {
+   "V": 3,
+   "r": 7,
+   "several_classes": 25442,
+   "s1_failures": 0
+  },
+  {
+   "V": 3,
+   "r": 8,
+   "several_classes": 122905,
+   "s1_failures": 0
+  },
+  {
+   "V": 3,
+   "r": 9,
+   "several_classes": 573761,
+   "s1_failures": 0
+  },
+  {
+   "V": 3,
+   "r": 10,
+   "several_classes": 2596829,
+   "s1_failures": 0
+  },
+  {
+   "V": 3,
+   "r": 11,
+   "several_classes": 11477548,
+   "s1_failures": 0
+  },
+  {
+   "V": 3,
+   "r": 12,
+   "several_classes": 49765616,
+   "s1_failures": 0
+  },
+  {
+   "V": 4,
+   "r": 2,
+   "several_classes": 0,
+   "s1_failures": 0
+  },
+  {
+   "V": 4,
+   "r": 3,
+   "several_classes": 49,
+   "s1_failures": 0
+  },
+  {
+   "V": 4,
+   "r": 4,
+   "several_classes": 437,
+   "s1_failures": 0
+  },
+  {
+   "V": 4,
+   "r": 5,
+   "several_classes": 3470,
+   "s1_failures": 0
+  },
+  {
+   "V": 4,
+   "r": 6,
+   "several_classes": 23850,
+   "s1_failures": 0
+  },
+  {
+   "V": 4,
+   "r": 7,
+   "several_classes": 153284,
+   "s1_failures": 0
+  },
+  {
+   "V": 4,
+   "r": 8,
+   "several_classes": 933380,
+   "s1_failures": 0
+  },
+  {
+   "V": 4,
+   "r": 9,
+   "several_classes": 5464857,
+   "s1_failures": 0
+  },
+  {
+   "V": 4,
+   "r": 10,
+   "several_classes": 30970336,
+   "s1_failures": 0
+  },
+  {
+   "V": 5,
+   "r": 2,
+   "several_classes": 0,
+   "s1_failures": 0
+  },
+  {
+   "V": 5,
+   "r": 3,
+   "several_classes": 96,
+   "s1_failures": 0
+  },
+  {
+   "V": 5,
+   "r": 4,
+   "several_classes": 1064,
+   "s1_failures": 0
+  },
+  {
+   "V": 5,
+   "r": 5,
+   "several_classes": 10263,
+   "s1_failures": 0
+  },
+  {
+   "V": 5,
+   "r": 6,
+   "several_classes": 85399,
+   "s1_failures": 0
+  },
+  {
+   "V": 5,
+   "r": 7,
+   "several_classes": 661374,
+   "s1_failures": 0
+  },
+  {
+   "V": 5,
+   "r": 8,
+   "several_classes": 4840794,
+   "s1_failures": 0
+  },
+  {
+   "V": 7,
+   "r": 2,
+   "several_classes": 0,
+   "s1_failures": 0
+  },
+  {
+   "V": 7,
+   "r": 3,
+   "several_classes": 259,
+   "s1_failures": 0
+  },
+  {
+   "V": 7,
+   "r": 4,
+   "several_classes": 3973,
+   "s1_failures": 0
+  },
+  {
+   "V": 7,
+   "r": 5,
+   "several_classes": 52021,
+   "s1_failures": 0
+  },
+  {
+   "V": 7,
+   "r": 6,
+   "several_classes": 586552,
+   "s1_failures": 0
+  },
+  {
+   "V": 7,
+   "r": 7,
+   "several_classes": 6110641,
+   "s1_failures": 0
+  }
+ ],
+ "hplus_compositions": [
+  {
+   "k": 4,
+   "compositions": 6,
+   "connected": 6,
+   "deficient": 0,
+   "tight_set": 0,
+   "FAIL": 0
+  },
+  {
+   "k": 5,
+   "compositions": 14,
+   "connected": 14,
+   "deficient": 0,
+   "tight_set": 0,
+   "FAIL": 0
+  },
+  {
+   "k": 6,
+   "compositions": 30,
+   "connected": 30,
+   "deficient": 0,
+   "tight_set": 0,
+   "FAIL": 0
+  },
+  {
+   "k": 7,
+   "compositions": 62,
+   "connected": 61,
+   "deficient": 0,
+   "tight_set": 1,
+   "FAIL": 0
+  },
+  {
+   "k": 8,
+   "compositions": 126,
+   "connected": 123,
+   "deficient": 0,
+   "tight_set": 3,
+   "FAIL": 0
+  },
+  {
+   "k": 9,
+   "compositions": 254,
+   "connected": 244,
+   "deficient": 1,
+   "tight_set": 9,
+   "FAIL": 0
+  },
+  {
+   "k": 10,
+   "compositions": 510,
+   "connected": 484,
+   "deficient": 4,
+   "tight_set": 22,
+   "FAIL": 0
+  },
+  {
+   "k": 11,
+   "compositions": 1022,
+   "connected": 952,
+   "deficient": 16,
+   "tight_set": 54,
+   "FAIL": 0
+  },
+  {
+   "k": 12,
+   "compositions": 2046,
+   "connected": 1873,
+   "deficient": 52,
+   "tight_set": 121,
+   "FAIL": 0
+  },
+  {
+   "k": 13,
+   "compositions": 4094,
+   "connected": 3673,
+   "deficient": 153,
+   "tight_set": 268,
+   "FAIL": 0
+  },
+  {
+   "k": 14,
+   "compositions": 8190,
+   "connected": 7200,
+   "deficient": 416,
+   "tight_set": 574,
+   "FAIL": 0
+  },
+  {
+   "k": 15,
+   "compositions": 16382,
+   "connected": 14066,
+   "deficient": 1089,
+   "tight_set": 1227,
+   "FAIL": 0
+  },
+  {
+   "k": 16,
+   "compositions": 32766,
+   "connected": 27477,
+   "deficient": 2726,
+   "tight_set": 2563,
+   "FAIL": 0
+  },
+  {
+   "k": 17,
+   "compositions": 65534,
+   "connected": 53545,
+   "deficient": 6654,
+   "tight_set": 5335,
+   "FAIL": 0
+  },
+  {
+   "k": 18,
+   "compositions": 131070,
+   "connected": 104257,
+   "deficient": 15842,
+   "tight_set": 10971,
+   "FAIL": 0
+  },
+  {
+   "k": 19,
+   "compositions": 262142,
+   "connected": 202635,
+   "deficient": 37043,
+   "tight_set": 22464,
+   "FAIL": 0
+  },
+  {
+   "k": 20,
+   "compositions": 524286,
+   "connected": 393521,
+   "deficient": 85156,
+   "tight_set": 45609,
+   "FAIL": 0
+  },
+  {
+   "k": 21,
+   "compositions": 1048574,
+   "connected": 763025,
+   "deficient": 193274,
+   "tight_set": 92275,
+   "FAIL": 0
+  },
+  {
+   "k": 22,
+   "compositions": 2097150,
+   "connected": 1478374,
+   "deficient": 433270,
+   "tight_set": 185506,
+   "FAIL": 0
+  },
+  {
+   "k": 23,
+   "compositions": 4194302,
+   "connected": 2860364,
+   "deficient": 961971,
+   "tight_set": 371967,
+   "FAIL": 0
+  },
+  {
+   "k": 24,
+   "compositions": 8388606,
+   "connected": 5530300,
+   "deficient": 2116186,
+   "tight_set": 742120,
+   "FAIL": 0
+  },
+  {
+   "k": 25,
+   "compositions": 16777214,
+   "connected": 10680306,
+   "deficient": 4619894,
+   "tight_set": 1477014,
+   "FAIL": 0
+  },
+  {
+   "k": 26,
+   "compositions": 33554430,
+   "connected": 20612753,
+   "deficient": 10013500,
+   "tight_set": 2928177,
+   "FAIL": 0
+  },
+  {
+   "k": 27,
+   "compositions": 67108862,
+   "connected": 39742662,
+   "deficient": 21572300,
+   "tight_set": 5793900,
+   "FAIL": 0
+  },
+  {
+   "k": 28,
+   "compositions": 134217726,
+   "connected": 76583813,
+   "deficient": 46207345,
+   "tight_set": 11426568,
+   "FAIL": 0
+  },
+  {
+   "k": 29,
+   "compositions": 268435454,
+   "connected": 147451842,
+   "deficient": 98484491,
+   "tight_set": 22499121,
+   "FAIL": 0
+  },
+  {
+   "k": 30,
+   "compositions": 536870910,
+   "connected": 283763694,
+   "deficient": 208925773,
+   "tight_set": 44181443,
+   "FAIL": 0
+  },
+  {
+   "k": 31,
+   "compositions": 1073741822,
+   "connected": 545700053,
+   "deficient": 441401577,
+   "tight_set": 86640192,
+   "FAIL": 0
+  }
+ ]
+}

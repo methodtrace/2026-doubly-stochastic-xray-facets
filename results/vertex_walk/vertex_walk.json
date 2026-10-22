@@ -1,0 +1,80 @@
+{
+ "exact": {
+  "5": {
+   "vertices": 22,
+   "rays": 16,
+   "identical_to_facet_walk": true
+  },
+  "6": {
+   "vertices": 100,
+   "rays": 42,
+   "identical_to_facet_walk": true
+  },
+  "7": {
+   "vertices": 484,
+   "rays": 110,
+   "identical_to_facet_walk": true
+  },
+  "8": {
+   "vertices": 2689,
+   "rays": 338,
+   "identical_to_facet_walk": true
+  },
+  "9": {
+   "vertices": 15732,
+   "rays": 1146,
+   "identical_to_facet_walk": true
+  }
+ },
+ "cdd": {
+  "5": {
+   "vertices": 22,
+   "rays": 16,
+   "identical_to_facet_walk": true
+  },
+  "6": {
+   "vertices": 100,
+   "rays": 42,
+   "identical_to_facet_walk": true
+  },
+  "7": {
+   "vertices": 484,
+   "rays": 110,
+   "identical_to_facet_walk": true
+  },
+  "8": {
+   "vertices": 2689,
+   "rays": 338,
+   "identical_to_facet_walk": true
+  },
+  "9": {
+   "vertices": 15732,
+   "rays": 1146,
+   "identical_to_facet_walk": true
+  }
+ },
+ "double_description": {
+  "4": 13,
+  "5": 23,
+  "6": 45,
+  "7": 85
+ },
+ "pycddlib_available": true,
+ "checks": {
+  "exact_k5": true,
+  "exact_k6": true,
+  "exact_k7": true,
+  "exact_k8": true,
+  "exact_k9": true,
+  "cdd_k5": true,
+  "cdd_k6": true,
+  "cdd_k7": true,
+  "cdd_k8": true,
+  "cdd_k9": true,
+  "dd_k4": true,
+  "dd_k5": true,
+  "dd_k6": true,
+  "dd_k7": true
+ },
+ "all_checks_passed": true
+}

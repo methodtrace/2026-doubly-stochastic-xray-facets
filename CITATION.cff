@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: "Cite the associated manuscript for mathematical statements and this computational artifact for its code and data."
+type: software
+version: "1.0.1"
+doi: "10.5281/zenodo.23440726"
+date-released: "2026-10-21"
+repository-code: "https://github.com/methodtrace/2026-doubly-stochastic-xray-facets"
+title: "Facets of the X-ray polytope of doubly stochastic matrices: computational artifact"
+authors:
+  - family-names: Chaudhary
+    given-names: Prashant
+    orcid: "https://orcid.org/0009-0001-1980-109X"
+    affiliation: "Independent Researcher, San Francisco Bay Area, CA, USA"
+  - family-names: Khandelwal
+    given-names: Kapil
+    orcid: "https://orcid.org/0000-0002-5748-6019"
+    affiliation: "Department of Civil and Environmental Engineering and Earth Sciences, University of Notre Dame, Notre Dame, IN, USA"
+abstract: "Exact code and data for the facets of the polytope of anti-diagonal X-rays of doubly stochastic matrices: a certified facet test for the potential inequalities, a provably complete enumeration of the rays of the underlying tropical fan with independent recomputations, the complete ray and facet lists for k <= 12, certificate streams with exact checkers for the computer-assisted theorems on step potentials, and the checks behind every computational statement of the paper."
+keywords:
+  - doubly stochastic matrices
+  - X-ray polytope
+  - Minkowski sums of simplices
+  - exact computation
+  - facets
+  - Birkhoff polytope
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23440726"
+    description: "This version (1.0.1) of this artifact"
+  - type: doi
+    value: "10.5281/zenodo.23440725"
+    description: "All versions of this artifact"
+  - type: doi
+    value: "10.48550/arXiv.2610.30058"
+    description: "arXiv preprint of the associated manuscript"
+preferred-citation:
+  type: article
+  title: "Facets of the X-ray polytope of doubly stochastic matrices"
+  authors:
+    - family-names: Chaudhary
+      given-names: Prashant
+      orcid: "https://orcid.org/0009-0001-1980-109X"
+    - family-names: Khandelwal
+      given-names: Kapil
+      orcid: "https://orcid.org/0000-0002-5748-6019"
+  year: 2026
+  doi: "10.48550/arXiv.2610.30058"
+  url: "https://arxiv.org/abs/2610.30058"
+  repository: "arXiv"

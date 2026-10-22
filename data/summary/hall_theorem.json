@@ -1,0 +1,107 @@
+{
+ "description": "Theorem H checked by the matching criterion on every staircase with 3 <= k <= 18, and the sizes of minimal Hall sets of starts for the staircases without total support, k <= 14 (scripts/check_hall_theorem.py --full).",
+ "theorem": {
+  "total": 262108,
+  "per_k": {
+   "3": {
+    "staircases": 2,
+    "no_total_support": 0,
+    "exceptions": 0
+   },
+   "4": {
+    "staircases": 6,
+    "no_total_support": 0,
+    "exceptions": 0
+   },
+   "5": {
+    "staircases": 14,
+    "no_total_support": 0,
+    "exceptions": 0
+   },
+   "6": {
+    "staircases": 30,
+    "no_total_support": 0,
+    "exceptions": 0
+   },
+   "7": {
+    "staircases": 62,
+    "no_total_support": 3,
+    "exceptions": 0
+   },
+   "8": {
+    "staircases": 126,
+    "no_total_support": 12,
+    "exceptions": 0
+   },
+   "9": {
+    "staircases": 254,
+    "no_total_support": 40,
+    "exceptions": 0
+   },
+   "10": {
+    "staircases": 510,
+    "no_total_support": 118,
+    "exceptions": 0
+   },
+   "11": {
+    "staircases": 1022,
+    "no_total_support": 312,
+    "exceptions": 0
+   },
+   "12": {
+    "staircases": 2046,
+    "no_total_support": 776,
+    "exceptions": 0
+   },
+   "13": {
+    "staircases": 4094,
+    "no_total_support": 1849,
+    "exceptions": 0
+   },
+   "14": {
+    "staircases": 8190,
+    "no_total_support": 4268,
+    "exceptions": 0
+   },
+   "15": {
+    "staircases": 16382,
+    "no_total_support": 9579,
+    "exceptions": 0
+   },
+   "16": {
+    "staircases": 32766,
+    "no_total_support": 21086,
+    "exceptions": 0
+   },
+   "17": {
+    "staircases": 65534,
+    "no_total_support": 45607,
+    "exceptions": 0
+   },
+   "18": {
+    "staircases": 131070,
+    "no_total_support": 97378,
+    "exceptions": 0
+   }
+  }
+ },
+ "minimal_hall_sets": {
+  "k_range": [
+   3,
+   14
+  ],
+  "without_total_support": 7378,
+  "sizes": {
+   "1": 5272,
+   "2": 1949,
+   "3": 157
+  }
+ },
+ "proof_steps": {
+  "k_range": [
+   3,
+   13
+  ],
+  "staircase_row_set_pairs": 3012175
+ }
+}

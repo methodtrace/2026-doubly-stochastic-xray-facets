@@ -1,0 +1,95 @@
+{
+ "description": "Certificate trees for statement (S1), r = 1..9 (data/s1/s1_certificates_rN.txt.gz, .xz for r = 9): number of terminal records, records by kind (C connectivity cut, D solitary-index cut, G Gordan multiplier, Z vanishing strict row), SHA-256 and size of the uncompressed tree. See scripts/check_s1_certificates.py.",
+ "1": {
+  "terminal_records": 1,
+  "certificate_types": {
+   "C": 1
+  },
+  "uncompressed_sha256": "1bb762538e487e53d09f41fc33dfebc5839eedbc44c9e3443697e34e4df43e85",
+  "uncompressed_bytes": 303
+ },
+ "2": {
+  "terminal_records": 1,
+  "certificate_types": {
+   "C": 1
+  },
+  "uncompressed_sha256": "f6d551a918ea798a4abf5fe462ac7751d08d904a25914f2a35167013b8f3d388",
+  "uncompressed_bytes": 305
+ },
+ "3": {
+  "terminal_records": 7,
+  "certificate_types": {
+   "C": 5,
+   "D": 1,
+   "G": 1
+  },
+  "uncompressed_sha256": "95f5a02cf654320c0560ffa8474dcf4ad013fa77cfff24b8c303da34f825ab94",
+  "uncompressed_bytes": 391
+ },
+ "4": {
+  "terminal_records": 75,
+  "certificate_types": {
+   "C": 53,
+   "D": 13,
+   "G": 9
+  },
+  "uncompressed_sha256": "55e07b4037e95c35af4caea8ddd3b0f387f60c45c928a1e6e689ef64bd84914e",
+  "uncompressed_bytes": 1549
+ },
+ "5": {
+  "terminal_records": 893,
+  "certificate_types": {
+   "C": 563,
+   "D": 148,
+   "G": 136,
+   "Z": 46
+  },
+  "uncompressed_sha256": "20a74ac54a5af6af1ff6f006c5a66fd4d7e207c5a6f0a39e876dddf0cb18d579",
+  "uncompressed_bytes": 18024
+ },
+ "6": {
+  "terminal_records": 9293,
+  "certificate_types": {
+   "C": 5324,
+   "D": 1612,
+   "G": 1609,
+   "Z": 748
+  },
+  "uncompressed_sha256": "fbd646d73ee15fd06254d6755a230198ed301997af11032f678cdd690b0bd9d9",
+  "uncompressed_bytes": 215906
+ },
+ "7": {
+  "terminal_records": 104157,
+  "certificate_types": {
+   "C": 53844,
+   "D": 18817,
+   "G": 19695,
+   "Z": 11801
+  },
+  "uncompressed_sha256": "83c6df9844ea5bb933f21cf879b27db41255b24094dce332df7426ec85cf49c3",
+  "uncompressed_bytes": 2786046
+ },
+ "8": {
+  "terminal_records": 1076939,
+  "certificate_types": {
+   "C": 506266,
+   "D": 199002,
+   "G": 219153,
+   "Z": 152518
+  },
+  "uncompressed_sha256": "6be2bd7df8065389267acc45fabb5453883f1bf9993e6dfec5d69297bc10fdd1",
+  "uncompressed_bytes": 32792864
+ },
+ "9": {
+  "terminal_records": 11707545,
+  "certificate_types": {
+   "C": 4992450,
+   "D": 2229707,
+   "G": 2475518,
+   "Z": 2009870
+  },
+  "uncompressed_sha256": "a7fed0a38d80485645f370ee2a509a4ee1585a1ae92968cf3a72f22242ec0bca",
+  "uncompressed_bytes": 399929756
+ },
+ "terminal_records_total": 12898911
+}

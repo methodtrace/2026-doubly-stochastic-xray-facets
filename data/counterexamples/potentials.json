@@ -1,0 +1,145 @@
+{
+ "description": "Potentials on {0..k-1} (lists of integers) used by scripts/check_facet_criterion.py and scripts/check_facets_without_total_support.py. Every stated property is recomputed by those scripts in exact arithmetic.",
+ "potentials": [
+  {
+   "name": "example_5_1_chi",
+   "k": 19,
+   "u": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "description": "Example 5.1: indicator of O = {2,4,5,7,9,10,11,12,13}. A ray (dim Z = 3) of height two whose inequality defines a facet of hat-P(19); its tight graph does not have total support (19 lost tight pairs, all containing 16 and not 11); the allowed graph meets every anti-diagonal, has the bipartite component {11,16}, bip = 1, dim Z* = 4."
+  },
+  {
+   "name": "remark_5_2_chi_prime",
+   "k": 19,
+   "u": [
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "description": "Remark 5.2: chi' = chi - e_11 + e_16, the indicator of (O minus {11}) plus {16}. Same v and same sum as chi, a ray, not in span{1, iota, chi}; defines the same facet as chi."
+  },
+  {
+   "name": "k17_total_support_bipartite_component",
+   "k": 17,
+   "u": [
+    0,
+    0,
+    4,
+    4,
+    0,
+    0,
+    4,
+    4,
+    1,
+    2,
+    3,
+    0,
+    0,
+    4,
+    4,
+    0,
+    0
+   ],
+   "description": "A potential (not a ray, dim Z = 6) whose tight graph has total support and the bipartite component {8,10}; W + eps (e_8 - e_10) has the same v and the same tight graph for |eps| < 1. Not cited in the paper."
+  },
+  {
+   "name": "k17_cover_without_total_support",
+   "k": 17,
+   "u": [
+    0,
+    0,
+    2,
+    2,
+    0,
+    0,
+    2,
+    2,
+    1,
+    1,
+    1,
+    0,
+    0,
+    2,
+    2,
+    0,
+    0
+   ],
+   "description": "The previous potential with eps = 1, halved: a tight permutation, no total support, and an allowed edge on every anti-diagonal (so the symmetric-dual theorem applies with w != u). Not a facet. Not cited in the paper."
+  },
+  {
+   "name": "k22_R5",
+   "k": 22,
+   "u": [
+    0,
+    0,
+    2,
+    2,
+    0,
+    0,
+    1,
+    1,
+    1,
+    2,
+    2,
+    0,
+    0,
+    2,
+    2,
+    0,
+    0,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "description": "Member m = 5 of the family R(m) below: a facet ray of hat-P(22) without total support. Not cited in the paper."
+  }
+ ],
+ "families": [
+  {
+   "name": "R(m)",
+   "definition": "R(m) = (0,0,2,2,0,0,1,1,1,2,2,0,0,2,2,0,0) followed by m entries equal to 2, k = 17 + m",
+   "claim": "for 5 <= m <= 24 (k = 22..41), R(m) is a facet ray without total support; R(3), R(4) are not rays. Exact check (scripts/check_facets_without_total_support.py); not cited in the paper.",
+   "checked_m": [
+    5,
+    24
+   ]
+  }
+ ]
+}

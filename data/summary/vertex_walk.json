@@ -1,0 +1,61 @@
+{
+ "description": "Independent recomputation of the ray lists by the walk on the vertices of Q (table of the appendix on certified computations). rays_vertex_walk: cddlib version with every ray verified exactly; exact_version_identical: whether the exact-integer version reproduces the same ray set (null: not run).",
+ "table": {
+  "5": {
+   "vertices_of_Q": 22,
+   "rays_vertex_walk": 16,
+   "rays_facet_walk": 16,
+   "identical": true,
+   "exact_version_identical": true
+  },
+  "6": {
+   "vertices_of_Q": 100,
+   "rays_vertex_walk": 42,
+   "rays_facet_walk": 42,
+   "identical": true,
+   "exact_version_identical": true
+  },
+  "7": {
+   "vertices_of_Q": 484,
+   "rays_vertex_walk": 110,
+   "rays_facet_walk": 110,
+   "identical": true,
+   "exact_version_identical": true
+  },
+  "8": {
+   "vertices_of_Q": 2689,
+   "rays_vertex_walk": 338,
+   "rays_facet_walk": 338,
+   "identical": true,
+   "exact_version_identical": true
+  },
+  "9": {
+   "vertices_of_Q": 15732,
+   "rays_vertex_walk": 1146,
+   "rays_facet_walk": 1146,
+   "identical": true,
+   "exact_version_identical": true
+  },
+  "10": {
+   "vertices_of_Q": 97690,
+   "rays_vertex_walk": 4370,
+   "rays_facet_walk": 4370,
+   "identical": true,
+   "exact_version_identical": true
+  },
+  "11": {
+   "vertices_of_Q": 632678,
+   "rays_vertex_walk": 18515,
+   "rays_facet_walk": 18515,
+   "identical": true,
+   "exact_version_identical": true
+  },
+  "12": {
+   "vertices_of_Q": 4363898,
+   "rays_vertex_walk": 89321,
+   "rays_facet_walk": 89321,
+   "identical": true,
+   "exact_version_identical": true
+  }
+ }
+}

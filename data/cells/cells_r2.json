@@ -1,0 +1,10 @@
+{"r": 2,
+ "forms": [[1, -1]],
+ "cells": [
+  {"unit_steps": [], "signs": [-1], "verdict": "ts"},
+  {"unit_steps": [], "signs": [0], "verdict": "ts"},
+  {"unit_steps": [], "signs": [1], "verdict": "ts"},
+  {"unit_steps": [1], "signs": [-1], "verdict": "ts"},
+  {"unit_steps": [1, 2], "signs": [0], "verdict": "ts"},
+  {"unit_steps": [2], "signs": [1], "verdict": "ts"}
+ ]}
